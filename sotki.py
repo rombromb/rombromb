@@ -6,4 +6,4 @@ c=15
 d=25
 S1=c*d
 ostatok=S%S1
-   print(ostatok)
+print(ostatok)
