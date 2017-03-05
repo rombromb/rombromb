@@ -1,0 +1,48 @@
+#!/usr/bin/python
+# coding: utf-8
+
+import sys
+
+task =[{' ': [' ', ' ', ' ']},
+	   {'id': ['название', 'задача', 'время']},
+	   {1: ['курсы', 'сходить на занятие', '06.03.2107 18:45']}]
+
+while menu !=6:
+	print("Ежедневник. Выберите действие:')
+	print(' ')
+	print('1. Вывести список задач')
+	print('2. Добавить задачу')
+	print('3. ОТредактировать задачу')
+	print('4. Завершить задачу')
+	print('5. Начать задачу сначала')
+	print('6. Выход')
+	print(' ')
+	print('Введите число:')
+	menu = int(input())
+	
+
+	if menu == 1:
+		for 1 in task:
+		key = list(i.keys())[0]
+		print('{} {} {} {}'format(key, i[key][0], i[key][1], key[][2]))
+	if menu == 2:
+		print('2')
+
+	if menu == 3:
+		print('3')
+
+	if menu == 4:
+		print('4')
+
+	if menu == 5:
+		print('5')
+
+	if menu == 6:
+		print(' ')
+	
+
+
+
+
+
+
